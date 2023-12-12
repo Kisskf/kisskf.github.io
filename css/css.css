@@ -1,0 +1,229 @@
+body {
+		margin: 0;
+		margin-top: 50px;
+		font-family:Vintage-glamour;
+		background-color:rgba(160,190,160,1.0);
+}
+
+@font-face{
+	font-family:Vintage-glamour;
+	src:url(../fonts/VintageGlamourRegular-ALX27.ttf);}
+
+ .nav {
+		color :white;
+		flex:1;
+}
+
+
+.home {
+flex:1;
+		}
+
+.TBR {
+	width:50px
+	height:70px
+}
+
+
+.header {
+		display: flex;
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		background-color: black;
+		margin-left: 0px;
+		color: white;
+}
+
+.nav{
+		flex:1;
+		color:rgba(160,190,160,1.0);
+		font-size: 130%;
+		padding:10px;
+		padding-top:25px;
+}
+
+.navbar {
+		flex:1;
+		display:flex;
+		
+}
+
+
+.books {
+  padding-right: 2rem;
+}
+
+.books > ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 1rem;
+  list-style-type: none;
+   
+}
+
+.books > ul > li {
+  border: 4px solid rgb(110,150,110);
+    background-color: rgba(255,255,255,0.3);
+    text-align:center;
+ 	padding:10px;
+   }
+
+.books > ul > li > img {
+text-align:center;
+}
+
+.books > ul > li > figure {
+  max-height: 120px;
+  overflow: hidden;
+  border-top-left-radius: 5rem;
+  border-top-right-radius: 5rem;
+  position: relative;
+}
+
+
+
+.books > ul > li > figure > figcaption {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.books > ul > li > p {
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 1rem .75rem;
+
+}
+
+.books > h3 {
+
+}
+
+.books > ul > li > a {
+
+}
+
+.thoughts {
+padding-right:2rem;
+}
+
+
+.thoughts > ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+  grid-gap: 1rem;
+  list-style-type: none;
+   
+}
+
+.thoughts > ul > li {
+  border: 4px solid rgb(110,150,110);
+    background-color: rgba(255,255,255,0.3);
+    text-align:center;
+}
+
+.thoughts > ul > li > figure {
+  max-height: 220px;
+  overflow: hidden;
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
+  position: relative;
+}
+
+.thoughts > ul > li > figure > img {
+  width: 200%;
+}
+
+.thoughts > ul > li > figure > figcaption {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.thoughts > ul > li > p {
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 1rem .75rem;
+
+}
+
+.thoughts > h3 {
+	padding; 1rem;
+}
+
+.thoughts > ul > li > a {
+  padding: .5rem 1rem;
+  margin: .5rem;
+}
+
+.kingdom {
+width: 85%
+
+}
+
+.home {
+padding-left:10px;
+}
+
+.topbox {
+text-align: center;
+color:white;
+background-color:rgba(110,135,110,1.0);
+padding:20px;
+width: 300px;
+margin: auto;
+}
+
+textarea {
+width: 98%;
+height: 40%;
+}
+
+.textbox{
+width: 90%;
+height: 40%;
+}
+
+.suggest2 {
+  border: 4px solid rgb(110,150,110);
+    background-color: rgba(255,255,255,0.3);
+ 	padding:10px;
+ 	margin-left: 25%;
+ 	margin-right:25%
+   }
+
+
+
+.suggest {
+  border: 4px solid rgb(110,150,110);
+    background-color: rgba(255,255,255,0.3);
+    text-align:center;
+ 	padding:10px;
+ 	margin-left: 25%;
+ 	margin-right:25%
+   }
+
+	input#submit {
+				border-bottom: 1px dotted #dcdcdc;
+				border-top: none;
+				border-right: none;
+				border-left: none;
+				padding: 5px;
+				width: 280px;
+				margin-bottom: 20px;}
+			input:focus {
+				border: 1px dotted #dcdcdc;
+				outline: none;}
+			input#submit {
+				color:white;
+				background-color: rgb(110,150,110);
+				border: none;
+				border-radius: 5px;
+				width: 80px;}
+			input#submit:hover {
+				color: pink;
+				background-color: #efefef;}
+
+
